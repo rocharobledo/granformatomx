@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+div h2 {
+    font-family: semplicitapro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+    color: #ffff;
+}
+.navbar-brand {
+    padding: 30px;
+}
+.principal {
+    
+    height: auto;
+    background-image:url(./imgs/hero_img_back_inicio.webp);
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 15% 35% 35% 15%;
+    grid-template-rows: 1fr;    
+}
+.principal div {
+    grid-column: 2/4;
+    text-align: center;
+    
+    
+    
+}
+.principal div h1 {
+    padding-top: 20%;
+    padding-bottom: 5%;
+    font-family: forma-djr-display, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: #ffff;
+    letter-spacing: 2pt;
+    font-size: 50px;
+}
+.principal div h2 {
+    
+    line-height: 30pt;
+    padding-bottom: 5%;
+}
+.principal div button {
+    margin-bottom: 20%;
+    border-color: #275093;
+    font-size: 15pt;
+    padding: 10px;
+}
+
+.row div h2 {
+    
+    margin-top: 80px;
+    color: #000;
+    font-family: forma-djr-display, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 2pt;
+    font-size: 40px;
+    text-align: center;
+    line-height: 30pt;
+    padding-bottom: 20px;
+
+}
+.row div p {
+    margin-top: 80px;
+    padding-top: 25px;
+    padding-right: 30px;
+    font-family: semplicitapro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17pt; 
+    text-align: justify;
+    padding-bottom: 30px;
+}
+.flex-container {
+   
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 40px;
+
+}
+.img-fluid {
+    margin-top: -20px;
+}
+footer{
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+footer div h3 {
+   
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-family: forma-djr-display, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 1pt;
+    font-size: 30px;
+      
+}
+footer div p {
+    font-family: semplicitapro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17pt; 
+    text-align: justify;
+    padding: 0px 50px 20px 50px;
+
+}
+.redes_sociales {
+    text-align: center;
+    color: #6D6D6D;
+    font-family: forma-djr-display, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    letter-spacing: 1pt;
+    font-size: 12pt;
+    margin-top: 60px
+
+}
+.redes_botones img {
+   
+    padding: 10px 30px 30px 30px;
+    display: inline-block;
+    
+}
